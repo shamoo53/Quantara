@@ -17,8 +17,6 @@ class StarknetClient:
     def __init__(self):
         """
         Initializes the Starknet client with a given node URL.
-
-        :param node_url: The URL of the Starknet node to connect to.
         """
         node_url = os.getenv("STARKNET_NODE_URL")
         if not node_url:
